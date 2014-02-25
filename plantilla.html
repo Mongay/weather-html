@@ -1,0 +1,27 @@
+<?xml version="1.0"	encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html>
+  <head>
+    <litle>El tiempo en Andalucia</litle>
+    
+  </head>
+  
+  <body>
+    
+    <h1>El Tiempo en Andalucia</h1>
+    <% for ciudadh in ciudad%>
+    
+    <h2>{{ciudadh}}</h2>
+    
+    <ul>
+      <li> Temperatura minima: {{ temp_minima }} C</li> 
+      <li> Temperatura maxima: {{ temp_maxima }} C</li>
+      <li> Velocidad del viento: {{ speed }} </li>
+      <li> Direccion del viento: {{ direccion }} </li>
+      
+    </ul>
+    
+  </body>
+
+</html>
