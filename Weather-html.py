@@ -26,7 +26,7 @@ for ciudad in ciudades:
 
 	if dicc == {u'message': u'Error: Not found city', u'cod': u'404'}:
 
-		acceso = false
+		acceso = False
 		temp_minima = ''
 		temp_maxima = ''
 		velo_viento = ''
