@@ -13,6 +13,7 @@ html = ''
 for linea in plantilla:
 
 	html += linea
+	
 plantilla = Template(html)
 
 temp_minima = []
@@ -71,3 +72,5 @@ archivo = open('tiempo.html','w')
 archivo.write(tiempo)
 archivo.close()
 webbrowser.open("tiempo.html")
+
+
