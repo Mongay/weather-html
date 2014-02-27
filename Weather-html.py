@@ -42,21 +42,21 @@ for ciudad in ciudades:
 	for grado in str(direccion):
 		
 		if direccion = 0 or direccion = 360:
-			return "Norte"
+			print "Norte"
 		elif direccion = 180:
-			return "Sur"
+			print "Sur"
 		elif direccion = 90:
-			return "Este"
+			print "Este"
 		elif direccion = 270:
-			return "Oeste"
+			print "Oeste"
 		elif direccion > 0 and direccion < 90:
-			return "Noreste"
+			print "Noreste"
 		elif direccion > 90 and direccion < 180:
-			return "Sureste"
+			print "Sureste"
 		elif direccion > 180 and direccion < 270:
-			return "Suroeste"
+			print "Suroeste"
 		elif direccion > 270 and direccion < 360:
-			return "Noroeste"
+			print "Noroeste"
 
 
 		temp_minima.append(minima)
