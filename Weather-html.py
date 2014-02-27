@@ -5,7 +5,7 @@ import json
 import webbrowser
 from jinja2 import Template
 
-ciudades = ['Almeria','Cadiz','Cordoba',Granada','Huelva','Malaga','Jaen','Sevilla']
+ciudades = ['Almeria','Cadiz','Cordoba','Granada','Huelva','Malaga','Jaen','Sevilla']
 
 
 plantilla = open('plantilla.html','r')
