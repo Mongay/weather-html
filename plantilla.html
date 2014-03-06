@@ -19,12 +19,12 @@
     <ul>
       <li> Temperatura minima: {{ temp_minima }} C</li> 
       <li> Temperatura maxima: {{ temp_maxima }} C</li>
-      <li> Velocidad del viento: {{ speed }} </li>
-      <li> Direccion del viento: {{ direccion }} </li>
+      <li> Velocidad del viento: {{ speed[contador] }} </li>
+      <li> Direccion del viento: {{ direccion[contador] }} </li>
       
     </ul>
       
-    {% set contador =  + 1 %}
+    {% set contador = contador + 1 %}
     {%- endfor %}
       
   </body>
